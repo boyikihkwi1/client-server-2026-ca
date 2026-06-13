@@ -1,0 +1,93 @@
+/*
+ * Name: [BOYIKIH aLBERT-CLINTON KWI]
+ * Section: [OPTIONAL STYLE CSS]
+ * Assignment: CSSE 290 Homework Assignment 1: Recipe
+ * Description: Vintage bakery stylesheet for the front page.
+ */
+
+body {
+    background-color: #fdf6e3; /* Warm parchment color */
+    color: #5c4033; /* Dark brown text */
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.vintage-border {
+    border: 8px double #8b5a2b;
+    padding: 40px;
+    max-width: 600px;
+    text-align: center;
+    background-color: #fffaf0; /* Lighter cream interior */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: "Brush Script MT", cursive, sans-serif;
+    color: #8b5a2b;
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-style: italic;
+    border-bottom: 2px dashed #d2b48c;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: #8b5a2b;
+}
+
+.welcome-text, .action-text {
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+.specials-board {
+    background-color: #fff3e0;
+    border: 1px solid #d2b48c;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.specials-board h3 {
+    text-align: center;
+    margin-top: 0;
+    color: #8b5a2b;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.specials-board ul {
+    list-style-type: square;
+    color: #5c4033;
+}
+
+.vintage-button {
+    display: inline-block;
+    background-color: #8b5a2b;
+    color: #fdf6e3;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    font-family: "Times New Roman", Times, serif;
+    border: 2px solid #5c4033;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    transition: background-color 0.3s;
+}
+
+.vintage-button:hover {
+    background-color: #5c4033;
+    color: #ffffff;
+}
+
+footer {
+    border-top: 1px solid #d2b48c;
+    padding-top: 15px;
+    color: #8b5a2b;
+}
